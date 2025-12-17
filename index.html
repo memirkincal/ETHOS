@@ -12,7 +12,9 @@
   <style>
     body {
       font-family: 'Inter', sans-serif;
-      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      background-color: #0f1117;
     }
     .font-academic { font-family: 'Lora', serif; }
     .glass {
@@ -21,10 +23,40 @@
       -webkit-backdrop-filter: blur(12px);
       border: 1px solid rgba(255, 255, 255, 0.1);
     }
-    .custom-scrollbar::-webkit-scrollbar { width: 6px; }
-    .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
-    .custom-scrollbar::-webkit-scrollbar-thumb { background: #374151; border-radius: 10px; }
+    .custom-scrollbar::-webkit-scrollbar { width: 8px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: #0f1117; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #374151; border-radius: 10px; border: 2px solid #0f1117; }
     .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #4b5563; }
+    
+    /* Editör Toolbar Buton Stilleri */
+    .toolbar-btn {
+      padding: 6px 10px;
+      border-radius: 4px;
+      transition: all 0.2s;
+      color: #334155;
+      font-size: 13px;
+    }
+    .toolbar-btn:hover {
+      background-color: #f1f5f9;
+      color: #000;
+    }
+    .toolbar-action-btn {
+      padding: 6px 12px;
+      border-radius: 6px;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      color: #475569;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      transition: all 0.2s;
+    }
+    .toolbar-action-btn:hover {
+      background: #fff;
+      border-color: #cbd5e1;
+      color: #000;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
   </style>
 <script type="importmap">
 {
