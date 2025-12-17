@@ -1,0 +1,7 @@
+{
+  "name": "ETHOS • Niyet Odaklı Yapay Zeka Editörü",
+  "description": "Akademik şeffaflık ve niyet odaklı yapay zeka entegrasyonuna odaklanan, gerçek zamanlı etik metrikleri ve bağlama duyarlı yardım sunan vizyoner bir metin editörü.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
